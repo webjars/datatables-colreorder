@@ -24,10 +24,10 @@
         <requirejs>
             {
                 "paths": {
-                    "datatable-colreorder": "datatable-colreorder"
+                    "datatable-colreorder": "js/dataTables.colReorder"
                 },
                 "shim": {
-                    "datatable-colreorder": ["jquery,datables"]
+                    "datatable-colreorder": ["jquery", "datatables"]
                 }
             }
         </requirejs>
