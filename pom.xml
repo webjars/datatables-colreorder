@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>datatables-colreorder</artifactId>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>1.1.2</version>
     <name>datatables colReorder</name>
     <description>WebJar for datatables colReorder</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/datatables-colreorder</url>
         <connection>scm:git:https://github.com/webjars/datatables-colreorder.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/datatables-colreorder.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>datatables-colreorder-1.1.2</tag>
     </scm>
 
     <dependencies>
@@ -104,9 +104,9 @@
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/ColReorder-${upstream.version}">
-                                        <include name="css/*"/>
-                                        <include name="js/*"/>
-                                        <include name="images/*"/>
+                                        <include name="css/*" />
+                                        <include name="js/*" />
+                                        <include name="images/*" />
                                     </fileset>
                                 </move>
                             </target>
