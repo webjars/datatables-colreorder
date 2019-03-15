@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>datatables-colreorder</artifactId>
-    <version>1.2.1-SNAPSHOT</version>
+    <version>1.5.1-SNAPSHOT</version>
     <name>datatables colReorder</name>
     <description>WebJar for datatables colReorder</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>1.2.0</upstream.version>
+        <upstream.version>1.5.1</upstream.version>
         <upstream.url>https://github.com/DataTables/ColReorder/archive</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
