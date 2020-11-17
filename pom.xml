@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>datatables-colreorder</artifactId>
-    <version>1.5.2</version>
+    <version>1.5.3-SNAPSHOT</version>
     <name>datatables colReorder</name>
     <description>WebJar for datatables colReorder</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/datatables-colreorder</url>
         <connection>scm:git:https://github.com/webjars/datatables-colreorder.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/datatables-colreorder.git</developerConnection>
-        <tag>datatables-colreorder-1.5.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
